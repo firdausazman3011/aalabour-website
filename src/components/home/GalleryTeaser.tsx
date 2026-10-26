@@ -6,7 +6,7 @@ import { Reveal } from "../ui/Reveal";
 import { SmartImage } from "../ui/SmartImage";
 
 const picks = [
-  { src: "/images/gallery/memories-1.jpg", span: "row-span-2" },
+  { src: "/images/gallery/memories-2.jpg", span: "row-span-2" },
   { src: "/images/gallery/cleaning-1.jpg", span: "" },
   { src: "/images/gallery/rubber-1.jpg", span: "" },
   { src: "/images/gallery/management-1.jpg", span: "" },

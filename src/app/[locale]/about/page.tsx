@@ -46,6 +46,13 @@ export default async function AboutPage({ params }: PageProps) {
             </figure>
           </Reveal>
         </div>
+        <div className="mt-6 grid grid-cols-3 gap-3 sm:gap-6">
+          {["about-2.png", "about-3.png", "about-4.png"].map((file, i) => (
+            <Reveal key={file} delay={i * 0.08} className="relative aspect-[4/3] overflow-hidden rounded-2xl bg-navy-900 sm:rounded-3xl">
+              <SmartImage src={`/images/about/${file}`} alt={t("team.caption")} fill sizes="(min-width:1024px) 30vw, 33vw" className="object-cover" />
+            </Reveal>
+          ))}
+        </div>
       </Section>
 
       <Section>
