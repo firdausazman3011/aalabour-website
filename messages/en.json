@@ -664,8 +664,7 @@
     "success": "Thank you! We received your message and will contact you soon.",
     "error": "Sorry, something went wrong. Please call or message us on Telegram.",
     "required": "Please fill in this field.",
-    "invalidEmail": "Please enter a valid email.",
-    "preview": "Preview mode: this form is not connected to email yet."
+    "invalidEmail": "Please enter a valid email."
   },
   "footer": {
     "tagline": "Bridging borders. Connecting talent. Building futures.",

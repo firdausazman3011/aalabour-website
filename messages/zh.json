@@ -664,8 +664,7 @@
     "success": "谢谢！我们已收到您的信息，将尽快与您联系。",
     "error": "抱歉，提交失败。请致电或通过 Telegram 联系我们。",
     "required": "请填写此项。",
-    "invalidEmail": "请输入有效的电子邮箱。",
-    "preview": "预览模式：此表单尚未连接邮件服务。"
+    "invalidEmail": "请输入有效的电子邮箱。"
   },
   "footer": {
     "tagline": "跨越国界，连接人才，成就未来。",

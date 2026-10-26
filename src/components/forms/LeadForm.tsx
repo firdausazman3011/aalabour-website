@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { useState, type FormEvent, type ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CheckCircle2, Loader2, Send, TriangleAlert } from "lucide-react";
-import { jobKeys } from "@/content/site";
+import { company, jobKeys } from "@/content/site";
 import { cn } from "@/lib/cn";
 
 type Variant = "worker" | "employer" | "contact";
@@ -25,32 +25,33 @@ export function LeadForm({ variant, defaultJob }: { variant: Variant; defaultJob
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     const form = e.currentTarget;
-    const data = Object.fromEntries(new FormData(form).entries());
-    if (data.botcheck) return;
+    // botcheck is a hidden honeypot: real visitors leave it empty, so it is never emailed.
+    const { botcheck, ...data } = Object.fromEntries(new FormData(form).entries());
+    if (botcheck) return;
 
     setStatus("sending");
-    if (!accessKey) {
-      // No key configured yet (local preview / first Vercel deploy): simulate success.
-      await new Promise((r) => setTimeout(r, 700));
-      setStatus("success");
-      form.reset();
-      return;
-    }
+    const fields = { form_type: variant, page_language: document.documentElement.lang, ...data };
     try {
-      const res = await fetch("https://api.web3forms.com/submit", {
-        method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          access_key: accessKey,
-          subject: `[AA Labour] ${subjects[variant]}`,
-          from_name: "AA Labour website",
-          form_type: variant,
-          page_language: document.documentElement.lang,
-          ...data,
-        }),
-      });
-      const json = await res.json();
-      if (!json.success) throw new Error(json.message);
+      if (accessKey) {
+        // Web3Forms, used when the owner has added an access key in Vercel.
+        const res = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({ access_key: accessKey, subject: `[AA Labour] ${subjects[variant]}`, from_name: "AA Labour website", ...fields }),
+        });
+        const json = await res.json();
+        if (!json.success) throw new Error(json.message);
+      } else {
+        // FormSubmit needs no key: it emails the company inbox directly once the inbox owner
+        // has clicked the one-time activation link FormSubmit sends on the first submission.
+        const res = await fetch(`https://formsubmit.co/ajax/${company.email}`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", Accept: "application/json" },
+          body: JSON.stringify({ _subject: `[AA Labour] ${subjects[variant]}`, _template: "table", _captcha: "false", ...fields }),
+        });
+        const json = await res.json();
+        if (String(json.success) !== "true") throw new Error(json.message);
+      }
       setStatus("success");
       form.reset();
     } catch {
@@ -145,7 +146,6 @@ export function LeadForm({ variant, defaultJob }: { variant: Variant; defaultJob
           {status === "sending" ? <Loader2 className="size-5 animate-spin" /> : <Send className="size-4" />}
           {status === "sending" ? t("form.sending") : submitLabel}
         </button>
-        {!accessKey && <p className="mt-3 text-center text-xs text-amber-700">{t("form.preview")}</p>}
       </div>
 
       <AnimatePresence>

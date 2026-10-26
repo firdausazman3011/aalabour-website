@@ -664,8 +664,7 @@
     "success": "Terima kasih! Kami telah menerima mesej anda dan akan menghubungi anda tidak lama lagi.",
     "error": "Maaf, berlaku ralat. Sila hubungi kami atau hantar mesej di Telegram.",
     "required": "Sila isi ruangan ini.",
-    "invalidEmail": "Sila masukkan e-mel yang sah.",
-    "preview": "Mod pratonton: borang ini belum disambungkan ke e-mel."
+    "invalidEmail": "Sila masukkan e-mel yang sah."
   },
   "footer": {
     "tagline": "Merentas sempadan. Menghubungkan bakat. Membina masa depan.",

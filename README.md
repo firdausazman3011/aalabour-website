@@ -18,10 +18,14 @@ Open http://localhost:3000.
 ## Deploy on Vercel
 
 1. Import this repository in Vercel (framework preset: Next.js, no build settings to change).
-2. Add environment variables (see `.env.example`):
-   - `NEXT_PUBLIC_WEB3FORMS_KEY` — enables form emails to aalabourcambodia@gmail.com
-   - `NEXT_PUBLIC_SITE_URL` — the final domain
+2. Optionally set `NEXT_PUBLIC_SITE_URL` to the final domain (see `.env.example`).
 3. Deploy.
+
+## Form emails
+
+Forms post to aalabourcambodia@gmail.com through [FormSubmit](https://formsubmit.co), which needs no account or key. The first time any form is submitted, FormSubmit emails that inbox an activation link; the owner clicks it once and every submission after that arrives as an email. Submissions sent before activation are not delivered, so send one test from the live site right after deploying.
+
+To use [Web3Forms](https://web3forms.com) instead, add its access key as `NEXT_PUBLIC_WEB3FORMS_KEY` in Vercel and redeploy.
 
 ## Editing content
 
