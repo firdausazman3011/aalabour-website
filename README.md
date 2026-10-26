@@ -23,9 +23,17 @@ Open http://localhost:3000.
 
 ## Form emails
 
-Forms post to aalabourcambodia@gmail.com through [FormSubmit](https://formsubmit.co), which needs no account or key. The first time any form is submitted, FormSubmit emails that inbox an activation link; the owner clicks it once and every submission after that arrives as an email. Submissions sent before activation are not delivered, so send one test from the live site right after deploying.
+Forms post to `/api/contact`, which emails each submission over SMTP. Set these in Vercel (Settings → Environment Variables) and redeploy:
 
-To use [Web3Forms](https://web3forms.com) instead, add its access key as `NEXT_PUBLIC_WEB3FORMS_KEY` in Vercel and redeploy.
+| Variable | Value |
+| --- | --- |
+| `SMTP_HOST` | `smtp.gmail.com` (default) |
+| `SMTP_PORT` | `465` (default) |
+| `SMTP_USER` | the Gmail address that sends the emails |
+| `SMTP_PASS` | a Gmail App Password for that account, not its normal password |
+| `FORM_TO_EMAIL` | inbox that receives submissions (defaults to aalabourcambodia@gmail.com) |
+
+To create a Gmail App Password: turn on 2-Step Verification for the sending account, then go to https://myaccount.google.com/apppasswords. Until `SMTP_USER` and `SMTP_PASS` are set, forms show an error asking visitors to call or use Telegram.
 
 ## Editing content
 

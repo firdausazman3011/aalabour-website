@@ -4,21 +4,11 @@ import { useTranslations } from "next-intl";
 import { useState, type FormEvent, type ReactNode } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { CheckCircle2, Loader2, Send, TriangleAlert } from "lucide-react";
-import { company, jobKeys } from "@/content/site";
+import { jobKeys } from "@/content/site";
 import { cn } from "@/lib/cn";
 
 type Variant = "worker" | "employer" | "contact";
 type Status = "idle" | "sending" | "success" | "error";
-
-const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
-// Lets a deployment send test submissions somewhere other than the company inbox.
-const formEmail = process.env.NEXT_PUBLIC_FORM_EMAIL || company.email;
-
-const subjects: Record<Variant, string> = {
-  worker: "New worker application",
-  employer: "New employer request",
-  contact: "New website enquiry",
-};
 
 export function LeadForm({ variant, defaultJob }: { variant: Variant; defaultJob?: string }) {
   const t = useTranslations();
@@ -32,28 +22,15 @@ export function LeadForm({ variant, defaultJob }: { variant: Variant; defaultJob
     if (botcheck) return;
 
     setStatus("sending");
-    const fields = { form_type: variant, page_language: document.documentElement.lang, ...data };
     try {
-      if (accessKey) {
-        // Web3Forms, used when the owner has added an access key in Vercel.
-        const res = await fetch("https://api.web3forms.com/submit", {
-          method: "POST",
-          headers: { "Content-Type": "application/json", Accept: "application/json" },
-          body: JSON.stringify({ access_key: accessKey, subject: `[AA Labour] ${subjects[variant]}`, from_name: "AA Labour website", ...fields }),
-        });
-        const json = await res.json();
-        if (!json.success) throw new Error(json.message);
-      } else {
-        // FormSubmit needs no key: it emails the company inbox directly once the inbox owner
-        // has clicked the one-time activation link FormSubmit sends on the first submission.
-        const res = await fetch(`https://formsubmit.co/ajax/${formEmail}`, {
-          method: "POST",
-          headers: { "Content-Type": "application/json", Accept: "application/json" },
-          body: JSON.stringify({ _subject: `[AA Labour] ${subjects[variant]}`, _template: "table", _captcha: "false", ...fields }),
-        });
-        const json = await res.json();
-        if (String(json.success) !== "true") throw new Error(json.message);
-      }
+      // Emailed over SMTP by src/app/api/contact/route.ts.
+      const res = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ form_type: variant, page_language: document.documentElement.lang, ...data }),
+      });
+      const json = await res.json();
+      if (!json.success) throw new Error(json.message);
       setStatus("success");
       form.reset();
     } catch {
