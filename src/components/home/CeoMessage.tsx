@@ -14,7 +14,7 @@ export async function CeoMessage() {
           <div className="absolute -inset-4 hidden rotate-3 rounded-[2.5rem] bg-brand-600/10 sm:block" />
           <div className="relative aspect-[4/5] overflow-hidden rounded-[2rem] bg-gradient-to-br from-navy-800 to-navy-950 shadow-lift">
             {ceoPortrait ? (
-              <SmartImage src={ceoPortrait} alt={t("name")} fill sizes="(min-width:1024px) 35vw, 90vw" className="object-cover" />
+              <SmartImage src={ceoPortrait} alt={t("name")} fill sizes="(min-width:1024px) 35vw, 90vw" className="object-cover object-[42%_center]" />
             ) : (
               <div className="grid-bg flex h-full flex-col items-center justify-center gap-4 text-white/60">
                 <UserRound className="size-24" strokeWidth={1} />

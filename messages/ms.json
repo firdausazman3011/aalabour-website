@@ -48,7 +48,7 @@
       "badge": "Kini mengambil pekerja untuk Malaysia"
     },
     "stats": {
-      "license": "No. lesen kerajaan",
+      "license": "No. lesen",
       "salary": "Gaji pokok bulanan di Malaysia",
       "loan": "Pinjaman untuk menampung semua kos dokumen",
       "visitors": "Pengunjung laman web dan terus bertambah"
@@ -59,7 +59,7 @@
       "worker": {
         "label": "Untuk pekerja",
         "title": "Bekerja di luar negara dengan selamat dan sah",
-        "desc": "Dapatkan pekerjaan yang disahkan di Malaysia dengan sokongan penuh sebelum dan selepas berlepas.",
+        "desc": "Dapatkan pekerjaan sah di Malaysia dengan sokongan penuh sebelum dan selepas berlepas.",
         "points": [
           "Gaji pokok RM 1,800 serta kerja lebih masa",
           "Pinjaman 100% untuk dokumen melalui bank rakan kongsi kami",
@@ -85,24 +85,60 @@
       "title": "Pekerjaan yang kami tawarkan",
       "subtitle": "Jawatan peringkat permulaan dan mahir dengan majikan yang bereputasi.",
       "items": {
-        "construction": { "name": "Pembinaan", "desc": "Pekerja am, pengimpal, pemasang besi, juruelektrik dan tukang kayu." },
-        "care": { "name": "Penjagaan Warga Emas", "desc": "Penjaga dan pembantu jururawat untuk masyarakat yang semakin menua." },
-        "agriculture": { "name": "Pertanian", "desc": "Kerja ladang, rumah hijau, penuaian dan perladangan." },
-        "factory": { "name": "Kilang", "desc": "Operator barisan pengeluaran, pembungkusan dan mesin." },
-        "housemaid": { "name": "Pembantu Rumah", "desc": "Pembantu rumah untuk keluarga (akan dibuka tidak lama lagi)." },
-        "cleaning": { "name": "Pembersihan", "desc": "Perkhidmatan pembersihan bangunan, restoran, hotel dan pengemasan." },
-        "rubber": { "name": "Menoreh Getah", "desc": "Penoreh getah di ladang getah Malaysia." },
-        "semiconductor": { "name": "Elektronik & Semikonduktor", "desc": "Pekerja kilang elektronik dan semikonduktor." }
+        "construction": {
+          "name": "Pembinaan",
+          "desc": "Pekerja am, pengimpal, pemasang besi, juruelektrik dan tukang kayu."
+        },
+        "care": {
+          "name": "Penjagaan Warga Emas",
+          "desc": "Penjaga dan pembantu jururawat untuk masyarakat yang semakin menua."
+        },
+        "agriculture": {
+          "name": "Pertanian",
+          "desc": "Kerja ladang, rumah hijau, penuaian dan perladangan."
+        },
+        "factory": {
+          "name": "Kilang",
+          "desc": "Operator barisan pengeluaran, pembungkusan dan mesin."
+        },
+        "housemaid": {
+          "name": "Pembantu Rumah",
+          "desc": "Pembantu rumah untuk keluarga (akan dibuka tidak lama lagi)."
+        },
+        "cleaning": {
+          "name": "Pembersihan",
+          "desc": "Perkhidmatan pembersihan bangunan, restoran, hotel dan pengemasan."
+        },
+        "rubber": {
+          "name": "Menoreh Getah",
+          "desc": "Penoreh getah di ladang getah Malaysia."
+        },
+        "semiconductor": {
+          "name": "Elektronik & Semikonduktor",
+          "desc": "Pekerja kilang elektronik dan semikonduktor."
+        }
       }
     },
     "process": {
       "title": "Perjalanan anda, langkah demi langkah",
       "subtitle": "Proses yang jelas dan telus dengan pasukan kami di sisi anda pada setiap peringkat.",
       "steps": [
-        { "title": "Daftar", "desc": "Hubungi kami dan daftar dengan dokumen asas anda. Tempoh menunggu biasanya 3 hingga 6 bulan." },
-        { "title": "Temu duga", "desc": "Bertemu majikan. Selepas lulus, pemberangkatan biasanya dalam tempoh 1 hingga 1.5 bulan." },
-        { "title": "Latihan & dokumen", "desc": "Latihan bahasa, keselamatan dan budaya sementara kami memproses pasport, pemeriksaan perubatan, visa dan permit kerja anda." },
-        { "title": "Berlepas & sokongan", "desc": "Kami aturkan penerbangan anda dan terus berhubung dengan anda serta majikan anda selepas anda tiba." }
+        {
+          "title": "Daftar",
+          "desc": "Hubungi kami dan daftar dengan dokumen asas anda. Tempoh menunggu biasanya 3 hingga 6 bulan."
+        },
+        {
+          "title": "Temu duga",
+          "desc": "Bertemu majikan. Selepas lulus, pemberangkatan biasanya dalam tempoh 1 hingga 1.5 bulan."
+        },
+        {
+          "title": "Latihan & dokumen",
+          "desc": "Latihan bahasa, keselamatan dan budaya sementara kami memproses pasport, pemeriksaan perubatan, visa dan permit kerja anda."
+        },
+        {
+          "title": "Berlepas & sokongan",
+          "desc": "Kami aturkan penerbangan anda dan terus berhubung dengan anda serta majikan anda selepas anda tiba."
+        }
       ]
     },
     "destinations": {
@@ -133,7 +169,7 @@
     },
     "cta": {
       "title": "Bersedia untuk langkah seterusnya?",
-      "subtitle": "Hantar mesej kepada kami di Telegram atau hubungi kami. Pasukan kami membalas dengan pantas, Isnin hingga Jumaat, 8:00 pagi hingga 8:00 malam."
+      "subtitle": "Hantar mesej melalui Telegram atau hubungi kami pada waktu pejabat: Isnin hingga Jumaat, 8:00 pagi hingga 8:00 malam."
     }
   },
   "faq": {
@@ -197,19 +233,39 @@
     "values": {
       "title": "Prinsip teras kami",
       "items": [
-        { "title": "Kepercayaan", "desc": "Hubungan jangka panjang dengan pekerja dan majikan." },
-        { "title": "Ketelusan", "desc": "Kos, kontrak dan syarat yang jelas pada setiap langkah." },
-        { "title": "Kecemerlangan perkhidmatan", "desc": "Sokongan yang responsif dan profesional sebelum dan selepas berlepas." },
-        { "title": "Akauntabiliti & integriti", "desc": "Pengambilan pekerja beretika yang melindungi hak dan kebajikan pekerja." }
+        {
+          "title": "Kepercayaan"
+        },
+        {
+          "title": "Ketelusan"
+        },
+        {
+          "title": "Kecemerlangan perkhidmatan"
+        },
+        {
+          "title": "Akauntabiliti & integriti"
+        }
       ]
     },
     "services": {
       "title": "Perkhidmatan kami",
       "items": [
-        { "title": "Pengambilan & penempatan ke luar negara", "desc": "Kami mengambil, melatih dan menempatkan pekerja mahir, separuh mahir dan am dengan majikan bereputasi di luar negara." },
-        { "title": "Latihan pra-pemberangkatan", "desc": "Bahasa asas, budaya tempat kerja, keselamatan pekerjaan dan persediaan hidup di luar negara." },
-        { "title": "Dokumentasi & pemprosesan", "desc": "Pasport, pemeriksaan perubatan, visa, permit kerja, pengesahan dokumen, perjalanan dan tiket penerbangan." },
-        { "title": "Penyelesaian tenaga kerja untuk majikan", "desc": "Pencarian calon, temu duga, pemilihan, penempatan dan komunikasi berterusan dengan majikan." }
+        {
+          "title": "Pengambilan & penempatan ke luar negara",
+          "desc": "Kami mengambil, melatih dan menempatkan pekerja mahir, separuh mahir dan am dengan majikan bereputasi di luar negara."
+        },
+        {
+          "title": "Latihan pra-pemberangkatan",
+          "desc": "Bahasa asas, budaya tempat kerja, keselamatan pekerjaan dan persediaan hidup di luar negara."
+        },
+        {
+          "title": "Dokumentasi & pemprosesan",
+          "desc": "Pasport, pemeriksaan perubatan, visa, permit kerja, pengesahan dokumen, perjalanan dan tiket penerbangan."
+        },
+        {
+          "title": "Penyelesaian tenaga kerja untuk majikan",
+          "desc": "Pencarian calon, temu duga, pemilihan, penempatan dan komunikasi berterusan dengan majikan."
+        }
       ]
     },
     "team": {
@@ -226,12 +282,30 @@
     "benefits": {
       "title": "Apa yang anda peroleh",
       "items": [
-        { "title": "Gaji pokok RM 1,800", "desc": "Serta kerja lebih masa, kira-kira RM 13 sejam bagi jawatan semasa." },
-        { "title": "Pinjaman 100%", "desc": "Semua kos dokumen ditanggung melalui bank rakan kongsi kami." },
-        { "title": "Penginapan", "desc": "Asrama berkumpulan yang sesuai disediakan oleh majikan." },
-        { "title": "Dokumen 100% sah", "desc": "Visa dan permit kerja yang sah, diuruskan oleh agensi berlesen." },
-        { "title": "Sokongan penuh", "desc": "Bantuan sebelum berlepas dan selepas anda tiba." },
-        { "title": "Tempat kerja yang selamat", "desc": "Persekitaran kerja yang baik dengan majikan yang disahkan." }
+        {
+          "title": "Gaji pokok RM 1,800",
+          "desc": "Serta kerja lebih masa, kira-kira RM 13 sejam bagi jawatan semasa."
+        },
+        {
+          "title": "Pinjaman 100%",
+          "desc": "Semua kos dokumen ditanggung melalui bank rakan kongsi kami."
+        },
+        {
+          "title": "Penginapan",
+          "desc": "Asrama berkumpulan yang sesuai disediakan oleh majikan."
+        },
+        {
+          "title": "Dokumen 100% sah",
+          "desc": "Visa dan permit kerja yang sah, diuruskan oleh agensi berlesen."
+        },
+        {
+          "title": "Sokongan penuh",
+          "desc": "Bantuan sebelum berlepas dan selepas anda tiba."
+        },
+        {
+          "title": "Tempat kerja yang selamat",
+          "desc": "Persekitaran kerja yang baik dengan tahap keselamatan yang tinggi."
+        }
       ]
     },
     "requirements": {
@@ -253,12 +327,24 @@
       ]
     },
     "training": {
-      "title": "Latihan pra-pemberangkatan percuma",
+      "title": "Latihan pra-pemberangkatan",
       "items": [
-        { "title": "Bahasa asas", "desc": "Frasa penting untuk kerja dan kehidupan harian." },
-        { "title": "Tempat kerja & budaya", "desc": "Jangkaan, tatakelakuan dan adat resam negara destinasi anda." },
-        { "title": "Keselamatan & undang-undang", "desc": "Keselamatan pekerjaan dan undang-undang tempatan yang perlu anda ketahui." },
-        { "title": "Hidup di luar negara", "desc": "Persediaan praktikal untuk kehidupan harian di negara baharu." }
+        {
+          "title": "Bahasa asas",
+          "desc": "Frasa penting untuk kerja dan kehidupan harian."
+        },
+        {
+          "title": "Tempat kerja & budaya",
+          "desc": "Jangkaan, tatakelakuan dan adat resam negara destinasi anda."
+        },
+        {
+          "title": "Keselamatan & undang-undang",
+          "desc": "Keselamatan pekerjaan dan undang-undang tempatan yang perlu anda ketahui."
+        },
+        {
+          "title": "Hidup di luar negara",
+          "desc": "Persediaan praktikal untuk kehidupan harian di negara baharu."
+        }
       ]
     },
     "form": {
@@ -270,40 +356,94 @@
     "hero": {
       "eyebrow": "Untuk majikan & agensi",
       "title": "Pekerja Kemboja yang boleh diharap, sedia bekerja",
-      "subtitle": "Kami mencari, menyaring, melatih dan menempatkan pekerja mahir, separuh mahir dan am yang menepati keperluan tepat anda, secara sah dan mengikut jadual."
+      "subtitle": "Kami mencari, menyaring, melatih dan menempatkan pekerja mahir, separuh mahir dan am mengikut keperluan anda, melalui proses yang sah dan telus."
     },
     "services": {
       "title": "Perkhidmatan pengambilan pekerja menyeluruh",
       "items": [
-        { "title": "Pencarian & pembekalan", "desc": "Calon yang berkelayakan dan boleh diharap, dipadankan dengan spesifikasi anda." },
-        { "title": "Temu duga & pemilihan", "desc": "Kami menilai kemahiran dan kesesuaian, serta mengatur temu duga bersama anda." },
-        { "title": "Pengurusan proses", "desc": "Daripada pencarian calon hingga dokumentasi dan penempatan." },
-        { "title": "Penempatan & mobilisasi", "desc": "Visa, permit kerja, pengesahan dokumen, penerbangan dan penyelarasan ketibaan." },
-        { "title": "Sokongan berterusan", "desc": "Komunikasi berterusan dengan majikan dan pekerja selepas ketibaan." },
-        { "title": "Latihan pra-pemberangkatan", "desc": "Kesediaan bahasa, keselamatan, budaya dan tempat kerja." }
+        {
+          "title": "Pencarian & pembekalan",
+          "desc": "Calon yang berkelayakan dan boleh diharap, dipadankan dengan spesifikasi anda."
+        },
+        {
+          "title": "Temu duga & pemilihan",
+          "desc": "Kami menilai kemahiran dan kesesuaian, serta mengatur temu duga bersama anda."
+        },
+        {
+          "title": "Pengurusan proses",
+          "desc": "Daripada pencarian calon hingga dokumentasi dan penempatan."
+        },
+        {
+          "title": "Penempatan & mobilisasi",
+          "desc": "Visa, permit kerja, pengesahan dokumen, penerbangan dan penyelarasan ketibaan."
+        },
+        {
+          "title": "Sokongan berterusan",
+          "desc": "Komunikasi berterusan dengan majikan dan pekerja selepas ketibaan."
+        },
+        {
+          "title": "Latihan pra-pemberangkatan",
+          "desc": "Kesediaan bahasa, keselamatan, budaya dan tempat kerja."
+        }
       ]
     },
     "industries": {
       "title": "Industri yang kami bekalkan",
       "subtitle": "Tenaga kerja mahir, separuh mahir dan am merentas sektor berikut:",
       "items": [
-        { "name": "Pembuatan & kilang", "roles": "Elektronik, barisan pengeluaran, operator mesin, pembungkusan" },
-        { "name": "Pembinaan", "roles": "Pekerja am, pengimpal, juruelektrik, tukang paip, tukang kayu" },
-        { "name": "Pertanian & perladangan", "roles": "Pekerja ladang getah, ladang, penuaian, rumah hijau" },
-        { "name": "Hotel & hospitaliti", "roles": "Kakitangan hotel, restoran dan dapur" },
-        { "name": "Pembersihan & penyelenggaraan", "roles": "Pembersih bangunan, pengemasan, dobi" },
-        { "name": "Pengangkutan & pergudangan", "roles": "Gudang, pembungkusan, pemunggahan, operator forklift" },
-        { "name": "Pemprosesan makanan", "roles": "Pekerja kilang makanan, makanan laut dan pembungkusan" },
-        { "name": "Perkhidmatan am", "roles": "Pembantu am dan sokongan operasi" }
+        {
+          "name": "Pembuatan & kilang",
+          "roles": "Elektronik, barisan pengeluaran, operator mesin, pembungkusan"
+        },
+        {
+          "name": "Pembinaan",
+          "roles": "Pekerja am, pengimpal, juruelektrik, tukang paip, tukang kayu"
+        },
+        {
+          "name": "Pertanian & perladangan",
+          "roles": "Pekerja ladang getah, ladang, penuaian, rumah hijau"
+        },
+        {
+          "name": "Hotel & hospitaliti",
+          "roles": "Kakitangan hotel, restoran dan dapur"
+        },
+        {
+          "name": "Pembersihan & penyelenggaraan",
+          "roles": "Pembersih bangunan, pengemasan, dobi"
+        },
+        {
+          "name": "Pengangkutan & pergudangan",
+          "roles": "Gudang, pembungkusan, pemunggahan, operator forklift"
+        },
+        {
+          "name": "Pemprosesan makanan",
+          "roles": "Pekerja kilang makanan, makanan laut dan pembungkusan"
+        },
+        {
+          "name": "Perkhidmatan am",
+          "roles": "Pembantu am dan sokongan operasi"
+        }
       ]
     },
     "process": {
       "title": "Cara kerjasama berjalan",
       "steps": [
-        { "title": "Kongsi keperluan anda", "desc": "Jawatan, bilangan, kemahiran, gaji dan garis masa." },
-        { "title": "Kami senarai pendek calon", "desc": "Saringan dan penilaian berdasarkan kriteria anda." },
-        { "title": "Anda temu duga & pilih", "desc": "Secara bersemuka atau dalam talian, mengikut kelapangan anda." },
-        { "title": "Kami latih, proses & tempatkan", "desc": "Latihan, dokumen dan perjalanan diuruskan sepenuhnya." }
+        {
+          "title": "Kongsi keperluan anda",
+          "desc": "Jawatan, bilangan, kemahiran, gaji dan garis masa."
+        },
+        {
+          "title": "Kami senarai pendek calon",
+          "desc": "Saringan dan penilaian berdasarkan kriteria anda."
+        },
+        {
+          "title": "Anda temu duga & pilih",
+          "desc": "Secara bersemuka atau dalam talian, mengikut kelapangan anda."
+        },
+        {
+          "title": "Kami latih, proses & tempatkan",
+          "desc": "Latihan, dokumen dan perjalanan diuruskan sepenuhnya."
+        }
       ]
     },
     "welcome": {
@@ -312,7 +452,7 @@
     },
     "form": {
       "title": "Mohon pekerja",
-      "subtitle": "Beritahu kami keperluan anda dan kami akan membalas dengan cadangan dalam tempoh satu hari bekerja."
+      "subtitle": "Beritahu kami keperluan anda dan pasukan kami akan menghubungi anda."
     }
   },
   "destinations": {
@@ -340,8 +480,21 @@
       "currency": "Ringgit Malaysia (MYR)",
       "timezone": "GMT+8",
       "salary": "Gaji pokok RM 1,800 sebulan, serta kerja lebih masa",
-      "sectors": ["Kilang dan elektronik", "Pembinaan", "Ladang kelapa sawit dan getah", "Pembersihan dan penyelenggaraan", "Hotel dan restoran", "Pengangkutan dan pergudangan"],
-      "why": ["Permintaan pekerja yang tinggi", "Gaji dan kerja lebih masa yang kompetitif", "Berdekatan dengan Kemboja", "Kos sara hidup yang berpatutan", "Ramai majikan menyediakan penginapan"]
+      "sectors": [
+        "Kilang dan elektronik",
+        "Pembinaan",
+        "Ladang kelapa sawit dan getah",
+        "Pembersihan dan penyelenggaraan",
+        "Hotel dan restoran",
+        "Pengangkutan dan pergudangan"
+      ],
+      "why": [
+        "Permintaan pekerja yang tinggi",
+        "Gaji dan kerja lebih masa yang kompetitif",
+        "Berdekatan dengan Kemboja",
+        "Kos sara hidup yang berpatutan",
+        "Ramai majikan mungkin menyediakan penginapan"
+      ]
     },
     "japan": {
       "name": "Jepun",
@@ -352,8 +505,20 @@
       "currency": "Yen Jepun (JPY)",
       "timezone": "GMT+9",
       "salary": "Kira-kira JPY 160,000 hingga 300,000+ sebulan",
-      "sectors": ["Pembuatan", "Pembinaan", "Pertanian", "Pemprosesan makanan", "Hotel dan pelancongan", "Penjagaan warga emas"],
-      "why": ["Tempat kerja yang selamat dan bersih", "Peluang kerja lebih masa", "Teknologi dan kemahiran termaju", "Pengalaman kerja antarabangsa"]
+      "sectors": [
+        "Pembuatan",
+        "Pembinaan",
+        "Pertanian",
+        "Pemprosesan makanan",
+        "Hotel dan pelancongan",
+        "Penjagaan warga emas"
+      ],
+      "why": [
+        "Tempat kerja yang selamat dan bersih",
+        "Peluang kerja lebih masa",
+        "Teknologi dan kemahiran termaju",
+        "Pengalaman kerja antarabangsa"
+      ]
     },
     "thailand": {
       "name": "Thailand",
@@ -364,12 +529,24 @@
       "currency": "Baht Thai (THB)",
       "timezone": "GMT+7",
       "salary": "Kira-kira THB 12,000 hingga 30,000+ sebulan",
-      "sectors": ["Pembinaan", "Kilang dan pembuatan", "Pertanian", "Pembersihan", "Hospitaliti", "Pemprosesan makanan laut"],
-      "why": ["Berdekatan dengan Kemboja", "Kos perjalanan yang rendah", "Iklim dan budaya yang serupa", "Peluang kerja lebih masa"]
+      "sectors": [
+        "Pembinaan",
+        "Kilang dan pembuatan",
+        "Pertanian",
+        "Pembersihan",
+        "Hospitaliti",
+        "Pemprosesan makanan laut"
+      ],
+      "why": [
+        "Berdekatan dengan Kemboja",
+        "Kos perjalanan yang rendah",
+        "Iklim dan budaya yang serupa",
+        "Peluang kerja lebih masa"
+      ]
     },
     "singapore": {
       "name": "Singapura",
-      "summary": "Destinasi seterusnya dalam perancangan kami. Daftarkan minat anda dan kami akan menghubungi anda apabila pengambilan dibuka."
+      "summary": "Destinasi yang dirancang pada masa hadapan. Pengambilan belum dibuka."
     }
   },
   "news": {
@@ -382,19 +559,33 @@
       {
         "title": "Pekerjaan perkhidmatan pembersihan & ladang getah di Malaysia",
         "summary": "Mengambil ramai pekerja untuk perkhidmatan pembersihan dan menoreh getah.",
-        "points": ["Gaji RM 1,800 serta kerja lebih masa RM 13 sejam", "Asrama berkumpulan disediakan", "Dokumen 100% sah", "Sokongan penuh sebelum dan selepas berlepas", "Lelaki dan wanita berumur 21 hingga 45 tahun, sihat tubuh badan"],
+        "points": [
+          "Gaji RM 1,800 serta kerja lebih masa RM 13 sejam",
+          "Asrama berkumpulan disediakan",
+          "Dokumen 100% sah",
+          "Sokongan penuh sebelum dan selepas berlepas",
+          "Lelaki dan wanita berumur 21 hingga 45 tahun, sihat tubuh badan"
+        ],
         "note": "Hanya 170 tempat untuk tahun 2026."
       },
       {
         "title": "Peluang istimewa: pekerjaan kilang elektronik di Malaysia",
         "summary": "Jawatan kilang elektronik kini dibuka.",
-        "points": ["Tempat terhad, siapa cepat dia dapat", "Pinjaman 100% untuk kos permohonan"],
+        "points": [
+          "Tempat terhad, siapa cepat dia dapat"
+        ],
         "note": "Hanya 170 tempat untuk tahun 2026."
       },
       {
         "title": "150 pekerjaan pembersihan restoran di Malaysia",
         "summary": "Mengambil 150 pekerja untuk perkhidmatan pembersihan restoran.",
-        "points": ["Gaji RM 1,700 serta kerja lebih masa RM 13 sejam", "Penginapan dan makanan disediakan", "Dokumen 100% sah", "Sokongan penuh sebelum dan selepas berlepas", "Lelaki dan wanita berumur 18 hingga 44 tahun, sihat tubuh badan"],
+        "points": [
+          "Gaji RM 1,700 serta kerja lebih masa RM 13 sejam",
+          "Penginapan dan makanan disediakan",
+          "Dokumen 100% sah",
+          "Sokongan penuh sebelum dan selepas berlepas",
+          "Lelaki dan wanita berumur 18 hingga 44 tahun, sihat tubuh badan"
+        ],
         "note": "Pinjaman 100% tersedia untuk perkhidmatan permohonan ke luar negara."
       }
     ],
@@ -470,8 +661,7 @@
     "error": "Maaf, berlaku ralat. Sila hubungi kami atau hantar mesej di Telegram.",
     "required": "Sila isi ruangan ini.",
     "invalidEmail": "Sila masukkan e-mel yang sah.",
-    "preview": "Mod pratonton: borang ini belum disambungkan ke e-mel.",
-    "privacy": "Kami hanya menggunakan butiran anda untuk menjawab pertanyaan anda."
+    "preview": "Mod pratonton: borang ini belum disambungkan ke e-mel."
   },
   "footer": {
     "tagline": "Merentas sempadan. Menghubungkan bakat. Membina masa depan.",

@@ -59,7 +59,7 @@ export default async function DestinationsPage({ params }: PageProps) {
                     ))}
                   </dl>
                 )}
-                {d.status === "active" || d.status === "comingSoon" ? (
+                {d.status === "active" ? (
                   <Link href="/workers#apply" className="btn-primary mt-8">
                     {t("nav.applyNow")} <ArrowRight className="size-4" />
                   </Link>
@@ -88,8 +88,13 @@ export default async function DestinationsPage({ params }: PageProps) {
                   </div>
                 </Reveal>
               ) : (
-                <Reveal delay={0.1} className="grid-bg relative grid aspect-[16/9] place-items-center overflow-hidden rounded-[2rem] bg-gradient-to-br from-navy-700 to-navy-950 text-8xl shadow-lift">
-                  {d.flag}
+                <Reveal delay={0.1} className="relative aspect-[16/9] overflow-hidden rounded-[2rem] bg-navy-900 shadow-lift">
+                  {d.image && <SmartImage src={d.image} alt={t(`${base}.name`)} fill sizes="(min-width:1024px) 50vw, 100vw" className="object-cover" />}
+                  {"credit" in d && (
+              <a href={d.credit.href} target="_blank" rel="noopener noreferrer" className="absolute right-2 bottom-2 rounded bg-black/50 px-1.5 py-0.5 text-[10px] text-white/90 hover:bg-black/70">
+                {d.credit.text}
+              </a>
+              )}
                 </Reveal>
               )}
             </div>

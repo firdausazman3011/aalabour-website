@@ -25,6 +25,10 @@ export async function DestinationCards() {
                 <div className="grid-bg absolute inset-0 bg-gradient-to-br from-navy-700 to-navy-950" />
               )}
               <span className="absolute top-4 left-4 text-4xl drop-shadow">{d.flag}</span>
+              {"credit" in d && (
+                // Plain text here: the whole card is already a link, and links cannot nest.
+                <span className="absolute right-2 bottom-2 rounded bg-black/50 px-1.5 py-0.5 text-[10px] text-white/90">{d.credit.text}</span>
+              )}
             </div>
             <div className="flex flex-1 flex-col p-6">
               <div className="flex items-center justify-between gap-2">

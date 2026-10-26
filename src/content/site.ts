@@ -36,12 +36,23 @@ export const destinations = [
   { key: "malaysia", flag: "🇲🇾", status: "active", image: "/images/destinations/malaysia.png" },
   { key: "japan", flag: "🇯🇵", status: "inactive", image: "/images/destinations/japan.png" },
   { key: "thailand", flag: "🇹🇭", status: "suspended", image: "/images/destinations/thailand.png" },
-  { key: "singapore", flag: "🇸🇬", status: "comingSoon", image: null },
+  {
+    key: "singapore",
+    flag: "🇸🇬",
+    status: "comingSoon",
+    image: "/images/destinations/singapore.jpg",
+    // Licensed CC BY-SA 3.0, which requires this credit wherever the photo is shown.
+    credit: {
+      text: "Photo: Someformofhuman, CC BY-SA 3.0",
+      href: "https://commons.wikimedia.org/wiki/File:Marina_Bay_Sands_in_the_evening_-_20101120.jpg",
+    },
+  },
 ] as const satisfies ReadonlyArray<{
   key: string;
   flag: string;
   status: DestinationStatus;
   image: string | null;
+  credit?: { text: string; href: string };
 }>;
 
 export const certificates = [
@@ -52,10 +63,11 @@ export const certificates = [
   { key: "thailand", image: "/images/certificates/thailand.jpg" },
 ] as const;
 
+// Original job posters, shown uncropped so every detail stays readable.
 export const newsImages = [
-  "/images/news/news-1.jpg",
-  "/images/news/news-2.jpg",
-  "/images/news/news-3.png",
+  { src: "/images/news/news-1.jpg", width: 1054, height: 1492 },
+  { src: "/images/news/news-2.jpg", width: 1024, height: 1536 },
+  { src: "/images/news/news-3.png", width: 1144, height: 2048 },
 ] as const;
 
 export const galleryCategories = ["cleaning", "memories", "management", "rubber"] as const;
@@ -75,5 +87,5 @@ export const gallery = galleryCategories.flatMap((category) =>
   })),
 );
 
-// Shown on the home page; set to null until a portrait of the CEO is supplied.
-export const ceoPortrait: string | null = null;
+// Shown on the home page next to the CEO message.
+export const ceoPortrait: string | null = "/images/ceo.webp";

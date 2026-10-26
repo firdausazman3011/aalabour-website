@@ -145,8 +145,7 @@ export function LeadForm({ variant, defaultJob }: { variant: Variant; defaultJob
           {status === "sending" ? <Loader2 className="size-5 animate-spin" /> : <Send className="size-4" />}
           {status === "sending" ? t("form.sending") : submitLabel}
         </button>
-        <p className="mt-3 text-center text-xs text-muted">{t("form.privacy")}</p>
-        {!accessKey && <p className="mt-1 text-center text-xs text-amber-700">{t("form.preview")}</p>}
+        {!accessKey && <p className="mt-3 text-center text-xs text-amber-700">{t("form.preview")}</p>}
       </div>
 
       <AnimatePresence>

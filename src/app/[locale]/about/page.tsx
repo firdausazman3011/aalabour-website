@@ -100,11 +100,10 @@ export default async function AboutPage({ params }: PageProps) {
       <Section tone="dark">
         <SectionHeading title={t("values.title")} dark />
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {(t.raw("values.items") as { title: string; desc: string }[]).map((v, i) => (
-            <Reveal key={v.title} delay={i * 0.06} className="rounded-3xl border border-white/10 bg-white/5 p-7">
-              <HandHeart className="size-8 text-brand-500" strokeWidth={1.5} />
-              <h3 className="mt-5 text-lg font-bold">{v.title}</h3>
-              <p className="mt-2 text-sm text-navy-200">{v.desc}</p>
+          {(t.raw("values.items") as { title: string }[]).map((v, i) => (
+            <Reveal key={v.title} delay={i * 0.06} className="flex items-center gap-4 rounded-3xl border border-white/10 bg-white/5 p-7">
+              <HandHeart className="size-8 shrink-0 text-brand-500" strokeWidth={1.5} />
+              <h3 className="text-lg font-bold">{v.title}</h3>
             </Reveal>
           ))}
         </div>
