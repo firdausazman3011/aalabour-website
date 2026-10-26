@@ -11,6 +11,8 @@ type Variant = "worker" | "employer" | "contact";
 type Status = "idle" | "sending" | "success" | "error";
 
 const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_KEY;
+// Lets a deployment send test submissions somewhere other than the company inbox.
+const formEmail = process.env.NEXT_PUBLIC_FORM_EMAIL || company.email;
 
 const subjects: Record<Variant, string> = {
   worker: "New worker application",
@@ -44,7 +46,7 @@ export function LeadForm({ variant, defaultJob }: { variant: Variant; defaultJob
       } else {
         // FormSubmit needs no key: it emails the company inbox directly once the inbox owner
         // has clicked the one-time activation link FormSubmit sends on the first submission.
-        const res = await fetch(`https://formsubmit.co/ajax/${company.email}`, {
+        const res = await fetch(`https://formsubmit.co/ajax/${formEmail}`, {
           method: "POST",
           headers: { "Content-Type": "application/json", Accept: "application/json" },
           body: JSON.stringify({ _subject: `[AA Labour] ${subjects[variant]}`, _template: "table", _captcha: "false", ...fields }),
