@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "title": "AA Labour Cambodia Supply Co., Ltd. | Licensed Overseas Recruitment Agency",
+    "description": "Licensed Cambodian recruitment and manpower supply agency (License No. 121/19). We train and place skilled, semi-skilled and general workers with trusted employers in Malaysia and beyond."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "workers": "Find a Job",
+    "employers": "Hire Workers",
+    "destinations": "Destinations",
+    "news": "News",
+    "gallery": "Gallery",
+    "certificates": "Licences",
+    "contact": "Contact",
+    "applyNow": "Apply now",
+    "menu": "Menu",
+    "close": "Close",
+    "language": "Language",
+    "more": "More"
+  },
+  "common": {
+    "learnMore": "Learn more",
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "callUs": "Call us",
+    "chatTelegram": "Chat on Telegram",
+    "chatLine": "Chat on Line",
+    "emailUs": "Email us",
+    "licensed": "Licensed agency · License No. 121/19",
+    "openInMaps": "Open in Google Maps",
+    "backToTop": "Back to top",
+    "contactQuick": "Talk to us"
+  },
+  "status": {
+    "active": "Recruiting now",
+    "inactive": "Inactive",
+    "suspended": "Recruitment suspended",
+    "comingSoon": "Coming soon"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Licensed Cambodian recruitment agency",
+      "title": "Connecting Cambodian talent with trusted employers worldwide",
+      "subtitle": "Safe, legal overseas jobs for Cambodian workers, and reliable, well-trained workers for international employers. We handle every step: recruitment, training, documents and deployment.",
+      "ctaWorker": "I want a job abroad",
+      "ctaEmployer": "I need workers",
+      "badge": "Now recruiting for Malaysia"
+    },
+    "stats": {
+      "license": "Government licence no.",
+      "salary": "Base monthly salary in Malaysia",
+      "loan": "Loan to cover all document costs",
+      "visitors": "Website visitors and counting"
+    },
+    "paths": {
+      "title": "How can we help you?",
+      "subtitle": "Choose your path and we will guide you from the first conversation to the first day at work.",
+      "worker": {
+        "label": "For workers",
+        "title": "Work abroad, safely and legally",
+        "desc": "Find a verified job in Malaysia with full support before and after departure.",
+        "points": [
+          "Base salary RM 1,800 plus overtime",
+          "100% loan for documents through our partner bank",
+          "Pre-departure training and orientation",
+          "Accommodation provided by employers"
+        ],
+        "cta": "Explore jobs"
+      },
+      "employer": {
+        "label": "For employers",
+        "title": "Hire disciplined, job-ready workers",
+        "desc": "Screened, trained Cambodian workers for factories, construction, plantations, hospitality and more.",
+        "points": [
+          "Sourcing, interviews and selection",
+          "Language, safety and culture training",
+          "Visa, work permit and travel handled",
+          "Ongoing support after deployment"
+        ],
+        "cta": "Request workers"
+      }
+    },
+    "jobs": {
+      "title": "Jobs we recruit for",
+      "subtitle": "Entry-level and skilled positions with reputable employers.",
+      "items": {
+        "construction": { "name": "Construction", "desc": "General workers, welders, steel fixers, electricians and carpenters." },
+        "care": { "name": "Elderly Care", "desc": "Caregivers and nursing assistants for ageing societies." },
+        "agriculture": { "name": "Agriculture", "desc": "Farm, greenhouse, harvesting and plantation work." },
+        "factory": { "name": "Factory", "desc": "Production line, packaging and machine operators." },
+        "housemaid": { "name": "Housemaid", "desc": "Domestic helpers for families (opening soon)." },
+        "cleaning": { "name": "Cleaning", "desc": "Building, restaurant, hotel and housekeeping services." },
+        "rubber": { "name": "Rubber Tapping", "desc": "Rubber plantation tappers in Malaysia." },
+        "semiconductor": { "name": "Electronics & Semiconductor", "desc": "Electronics and semiconductor factory workers." }
+      }
+    },
+    "process": {
+      "title": "Your journey, step by step",
+      "subtitle": "A clear, transparent process with our team beside you at every stage.",
+      "steps": [
+        { "title": "Register", "desc": "Contact us and register with your basic documents. Waiting time is usually 3 to 6 months." },
+        { "title": "Interview", "desc": "Meet the employer. After passing, departure is usually within 1 to 1.5 months." },
+        { "title": "Training & documents", "desc": "Language, safety and culture training while we process your passport, medical check, visa and work permit." },
+        { "title": "Departure & support", "desc": "We arrange your flight and stay in touch with you and your employer after you arrive." }
+      ]
+    },
+    "destinations": {
+      "title": "Where we place workers",
+      "subtitle": "Currently recruiting for Malaysia, with more destinations on the way."
+    },
+    "ceo": {
+      "eyebrow": "Message from the CEO",
+      "title": "Connecting People to Opportunities, Building a Successful Future",
+      "paragraphs": [
+        "As CEO and Founder, I am proud to lead a company with a clear mission: to help Cambodian workers access safe, legal and meaningful employment, and to grow their careers in the international labour market.",
+        "We believe a job is more than a source of income. It is a chance for personal growth, new skills and a better future for families and communities. That is why we prepare every worker with training, guidance and support before they travel.",
+        "To our employers and partners: we are committed to long-term partnerships built on reliable, disciplined and well-prepared Cambodian workers. Thank you for your trust and continued support."
+      ],
+      "name": "Mr. Hang Sunly",
+      "role": "CEO & Founder, AA Labour Cambodia Supply Co., Ltd.",
+      "photoPending": "Portrait coming soon"
+    },
+    "trust": {
+      "title": "Fully licensed and accredited",
+      "subtitle": "Registered with the Ministry of Commerce and accredited for overseas placement.",
+      "cta": "View our licences"
+    },
+    "gallery": {
+      "title": "Our people in action",
+      "subtitle": "Training, departures and life at work.",
+      "cta": "Open the gallery"
+    },
+    "cta": {
+      "title": "Ready to take the next step?",
+      "subtitle": "Message us on Telegram or call. Our team replies quickly, Monday to Friday, 8:00 am to 8:00 pm."
+    }
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Quick answers for workers planning to go to Malaysia.",
+    "items": [
+      {
+        "q": "What jobs are available in Malaysia?",
+        "a": "There are five types of work: factory work, construction, rubber plantation agriculture, team cleaning services, and housemaid work (not officially open yet, please wait)."
+      },
+      {
+        "q": "How long after registering until I can leave?",
+        "a": "There are two stages. After registration, the wait is usually 3 to 6 months. After you pass the interview, departure is usually within 1 to 1.5 months."
+      },
+      {
+        "q": "What documents do I need to register?",
+        "a": "Five documents: a copy of your birth certificate, family book or residence book, national ID card, health certificate, and passport."
+      },
+      {
+        "q": "Can I register if I don't have money?",
+        "a": "Yes. The company provides a 100% loan through our partner bank to cover all document costs."
+      },
+      {
+        "q": "How much salary will I earn in Malaysia?",
+        "a": "The base salary is RM 1,800 (Malaysian Ringgit) per month, plus overtime where available."
+      },
+      {
+        "q": "What is the age requirement?",
+        "a": "Applicants aged 18 to 45 years old are accepted."
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About us",
+      "title": "Bridging Borders, Fulfilling Dreams",
+      "subtitle": "AA Labour Cambodia Supply Co., Ltd. is a legally licensed recruitment and manpower supply company in the Kingdom of Cambodia (License No. 121/19)."
+    },
+    "intro": [
+      "We specialise in the recruitment, training and overseas placement of skilled, semi-skilled and general workers, serving as a trusted bridge between qualified Cambodian workers, reputable employers and international business partners.",
+      "With a strong commitment to professionalism, integrity, transparency and compliance with labour standards, we deliver reliable workforce solutions while creating better opportunities for Cambodian workers to raise their income, develop their skills and improve their quality of life."
+    ],
+    "vision": {
+      "title": "Our vision",
+      "text": "To become one of Cambodia's leading and most trusted recruitment companies, recognised internationally for high-quality workforce solutions and for ethical, professional and responsible overseas employment."
+    },
+    "purpose": {
+      "title": "Our purpose",
+      "text": "To create legitimate employment opportunities for Cambodian workers while providing high-quality workforce solutions to employers around the world."
+    },
+    "mission": {
+      "title": "Our mission",
+      "items": [
+        "Provide international employers with skilled, disciplined and well-prepared Cambodian workers.",
+        "Help Cambodian workers access legal, safe and rewarding overseas jobs that improve their income and quality of life.",
+        "Maintain high professional standards based on transparency, accountability, integrity and ethical conduct.",
+        "Build long-term partnerships with employers and agencies worldwide, founded on trust and shared success.",
+        "Contribute to Cambodia's economic and social development by connecting workers with international labour markets."
+      ]
+    },
+    "values": {
+      "title": "Our core principles",
+      "items": [
+        { "title": "Trust", "desc": "Long-term relationships with workers and employers." },
+        { "title": "Transparency", "desc": "Clear costs, contracts and conditions at every step." },
+        { "title": "Service excellence", "desc": "Responsive, professional support before and after departure." },
+        { "title": "Accountability & integrity", "desc": "Ethical recruitment that protects workers' rights and welfare." }
+      ]
+    },
+    "services": {
+      "title": "What we do",
+      "items": [
+        { "title": "Overseas recruitment & deployment", "desc": "We recruit, train and deploy skilled, semi-skilled and general workers to reputable employers abroad." },
+        { "title": "Pre-departure training", "desc": "Basic language, workplace culture, occupational safety and overseas living preparation." },
+        { "title": "Documentation & processing", "desc": "Passport, medical check-up, visa, work permit, document legalisation, travel and air tickets." },
+        { "title": "Employer workforce solutions", "desc": "Sourcing, interviews, selection, deployment and ongoing communication with employers." }
+      ]
+    },
+    "team": {
+      "title": "Our team in Phnom Penh",
+      "caption": "The AA Labour team at our head office in Dangkao, Phnom Penh."
+    }
+  },
+  "workers": {
+    "hero": {
+      "eyebrow": "For job seekers",
+      "title": "Your safe path to a good job abroad",
+      "subtitle": "Legal jobs in Malaysia with a RM 1,800 base salary, accommodation and full support. No money? We offer a 100% loan for your documents."
+    },
+    "benefits": {
+      "title": "What you get",
+      "items": [
+        { "title": "RM 1,800 base salary", "desc": "Plus overtime, around RM 13 per hour in current roles." },
+        { "title": "100% loan", "desc": "All document costs covered through our partner bank." },
+        { "title": "Accommodation", "desc": "Suitable group housing provided by employers." },
+        { "title": "100% legal documents", "desc": "Proper visa and work permit, handled by a licensed agency." },
+        { "title": "Full support", "desc": "Help before departure and after you arrive." },
+        { "title": "Safe workplaces", "desc": "Good working environments with verified employers." }
+      ]
+    },
+    "requirements": {
+      "title": "Who can apply",
+      "items": [
+        "Men and women aged 18 to 45",
+        "Good health",
+        "Hard-working, disciplined and responsible"
+      ]
+    },
+    "documents": {
+      "title": "Documents you need",
+      "items": [
+        "Copy of birth certificate",
+        "Family book or residence book",
+        "National ID card",
+        "Health certificate",
+        "Passport"
+      ]
+    },
+    "training": {
+      "title": "Free pre-departure training",
+      "items": [
+        { "title": "Basic language", "desc": "Essential phrases for work and daily life." },
+        { "title": "Workplace & culture", "desc": "Expectations, conduct and customs of your destination." },
+        { "title": "Safety & law", "desc": "Occupational safety and local laws you must know." },
+        { "title": "Living abroad", "desc": "Practical preparation for daily life in a new country." }
+      ]
+    },
+    "form": {
+      "title": "Apply in 1 minute",
+      "subtitle": "Leave your details and our team will call you back. Prefer chatting? Message us on Telegram."
+    }
+  },
+  "employers": {
+    "hero": {
+      "eyebrow": "For employers & agencies",
+      "title": "Reliable Cambodian workers, ready to work",
+      "subtitle": "We source, screen, train and deploy skilled, semi-skilled and general workers that match your exact requirements, legally and on schedule."
+    },
+    "services": {
+      "title": "End-to-end recruitment services",
+      "items": [
+        { "title": "Sourcing & supply", "desc": "Qualified, reliable candidates matched to your specifications." },
+        { "title": "Interview & selection", "desc": "We assess skills and suitability, and arrange interviews with you." },
+        { "title": "Process management", "desc": "From candidate sourcing through documentation and deployment." },
+        { "title": "Deployment & mobilisation", "desc": "Visa, work permit, legalisation, flights and arrival coordination." },
+        { "title": "Ongoing support", "desc": "Continuous communication with employers and workers after arrival." },
+        { "title": "Pre-departure training", "desc": "Language, safety, culture and workplace readiness." }
+      ]
+    },
+    "industries": {
+      "title": "Industries we supply",
+      "subtitle": "Skilled, semi-skilled and general labour across these sectors:",
+      "items": [
+        { "name": "Manufacturing & factory", "roles": "Electronics, production line, machine operators, packaging" },
+        { "name": "Construction", "roles": "General workers, welders, electricians, plumbers, carpenters" },
+        { "name": "Agriculture & plantation", "roles": "Rubber, farm, harvesting, greenhouse workers" },
+        { "name": "Hotels & hospitality", "roles": "Hotel, restaurant and kitchen staff" },
+        { "name": "Cleaning & maintenance", "roles": "Building cleaners, housekeeping, laundry" },
+        { "name": "Transport & warehousing", "roles": "Warehouse, packing, loading, forklift operators" },
+        { "name": "Food processing", "roles": "Food, seafood and packaging factory workers" },
+        { "name": "General services", "roles": "General assistants and operations support" }
+      ]
+    },
+    "process": {
+      "title": "How partnering works",
+      "steps": [
+        { "title": "Share your requirements", "desc": "Positions, quantity, skills, salary and timeline." },
+        { "title": "We shortlist candidates", "desc": "Screening and assessment against your criteria." },
+        { "title": "You interview & select", "desc": "In person or online, at your convenience." },
+        { "title": "We train, process & deploy", "desc": "Training, documents and travel handled end to end." }
+      ]
+    },
+    "welcome": {
+      "title": "Welcome, business partners",
+      "text": "We welcome companies, institutions, employers and recruitment agencies seeking reliable workforce solutions from Cambodia, and look forward to building trusted, long-term partnerships."
+    },
+    "form": {
+      "title": "Request workers",
+      "subtitle": "Tell us what you need and we will reply with a proposal within one business day."
+    }
+  },
+  "destinations": {
+    "hero": {
+      "eyebrow": "Destinations",
+      "title": "Opportunities across Asia",
+      "subtitle": "Country guides for workers and employers, with current recruitment status."
+    },
+    "labels": {
+      "capital": "Capital",
+      "population": "Population",
+      "language": "Language",
+      "currency": "Currency",
+      "timezone": "Time zone",
+      "salary": "Typical salary",
+      "sectors": "High-demand sectors",
+      "why": "Why work here"
+    },
+    "malaysia": {
+      "name": "Malaysia",
+      "summary": "Our main destination. Strong, ongoing demand for foreign workers in manufacturing, construction, plantations and services.",
+      "capital": "Kuala Lumpur",
+      "population": "About 34 million",
+      "language": "Malay; English, Chinese and Tamil widely used",
+      "currency": "Malaysian Ringgit (MYR)",
+      "timezone": "GMT+8",
+      "salary": "RM 1,800 base per month, plus overtime",
+      "sectors": ["Factory and electronics", "Construction", "Palm oil and rubber plantations", "Cleaning and maintenance", "Hotels and restaurants", "Transport and warehousing"],
+      "why": ["High demand for workers", "Competitive salaries and overtime", "Close to Cambodia", "Reasonable cost of living", "Many employers provide accommodation"]
+    },
+    "japan": {
+      "name": "Japan",
+      "summary": "A large, ageing economy recruiting foreign workers through the SSW and TITP programmes. We currently have no active employers in Japan.",
+      "capital": "Tokyo",
+      "population": "About 124 million",
+      "language": "Japanese",
+      "currency": "Japanese Yen (JPY)",
+      "timezone": "GMT+9",
+      "salary": "About JPY 160,000 to 300,000+ per month",
+      "sectors": ["Manufacturing", "Construction", "Agriculture", "Food processing", "Hotels and tourism", "Elderly care"],
+      "why": ["Safe, clean workplaces", "Overtime opportunities", "Advanced technology and skills", "International work experience"]
+    },
+    "thailand": {
+      "name": "Thailand",
+      "summary": "Close to Cambodia with strong demand in construction, factories and agriculture. Recruitment is suspended until further notice.",
+      "capital": "Bangkok",
+      "population": "About 70 million",
+      "language": "Thai",
+      "currency": "Thai Baht (THB)",
+      "timezone": "GMT+7",
+      "salary": "About THB 12,000 to 30,000+ per month",
+      "sectors": ["Construction", "Factory and manufacturing", "Agriculture", "Cleaning", "Hospitality", "Seafood processing"],
+      "why": ["Close to Cambodia", "Low travel costs", "Similar climate and culture", "Overtime opportunities"]
+    },
+    "singapore": {
+      "name": "Singapore",
+      "summary": "Our next planned destination. Register your interest and we will contact you when recruitment opens."
+    }
+  },
+  "news": {
+    "hero": {
+      "eyebrow": "News & job openings",
+      "title": "Latest opportunities",
+      "subtitle": "Current job announcements. Places are limited: first come, first served."
+    },
+    "items": [
+      {
+        "title": "Cleaning services & rubber plantation jobs in Malaysia",
+        "summary": "Recruiting many workers for cleaning services and rubber tapping.",
+        "points": ["Salary RM 1,800 plus overtime RM 13 per hour", "Group accommodation provided", "100% legal documents", "Full support before and after departure", "Men and women aged 21 to 45, in good health"],
+        "note": "Only 170 places for 2026."
+      },
+      {
+        "title": "Special opportunity: electronics factory jobs in Malaysia",
+        "summary": "Electronics factory positions are now open.",
+        "points": ["Limited places, first come first served", "100% loan for application costs"],
+        "note": "Only 170 places for 2026."
+      },
+      {
+        "title": "150 restaurant cleaning jobs in Malaysia",
+        "summary": "Recruiting 150 workers for restaurant cleaning services.",
+        "points": ["Salary RM 1,700 plus overtime RM 13 per hour", "Accommodation and meals provided", "100% legal documents", "Full support before and after departure", "Men and women aged 18 to 44, in good health"],
+        "note": "100% loan available for overseas application services."
+      }
+    ],
+    "apply": "Apply for this job"
+  },
+  "gallery": {
+    "hero": {
+      "eyebrow": "Gallery",
+      "title": "Moments that matter",
+      "subtitle": "Our workers, training sessions, departures and management activities."
+    },
+    "categories": {
+      "all": "All",
+      "cleaning": "Cleaning & factory",
+      "management": "Management activities",
+      "memories": "Workers in Malaysia & Thailand",
+      "rubber": "Rubber tappers"
+    }
+  },
+  "certificates": {
+    "hero": {
+      "eyebrow": "Licences & accreditation",
+      "title": "Licensed, registered, accredited",
+      "subtitle": "Official documents that show we operate legally and responsibly."
+    },
+    "items": {
+      "moc": "Certificate of Incorporation (Ministry of Commerce)",
+      "tax": "Patent Tax 2026 (General Department of Taxation)",
+      "malaysia": "Certificate of Accreditation: Malaysia",
+      "japan": "Certificate of Accreditation: Japan",
+      "thailand": "Certificate of Accreditation: Thailand"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "title": "We'd love to hear from you",
+      "subtitle": "Visit our office, call, or send a message. Our team will reply as soon as possible."
+    },
+    "hours": "Office hours",
+    "hoursValue": "Monday to Friday, 8:00 am to 8:00 pm",
+    "phone": "Phone & Telegram",
+    "office": "Office line",
+    "email": "Email",
+    "address": "Office address",
+    "addressValue": "#6-8, Street 33, Borey Phiphub Thmey 1, Sangkat Dangkao, Khan Dangkao, Phnom Penh 120501, Cambodia",
+    "map": "Find our office",
+    "social": "Follow us"
+  },
+  "form": {
+    "name": "Full name",
+    "email": "Email",
+    "phone": "Phone / Telegram number",
+    "age": "Age",
+    "gender": "Gender",
+    "genderMale": "Male",
+    "genderFemale": "Female",
+    "job": "Job you are interested in",
+    "destination": "Preferred country",
+    "company": "Company name",
+    "country": "Country",
+    "industry": "Industry",
+    "quantity": "Number of workers needed",
+    "subject": "Subject",
+    "message": "Message",
+    "optional": "optional",
+    "select": "Please select",
+    "submit": "Send",
+    "submitWorker": "Send my application",
+    "submitEmployer": "Send request",
+    "sending": "Sending...",
+    "success": "Thank you! We received your message and will contact you soon.",
+    "error": "Sorry, something went wrong. Please call or message us on Telegram.",
+    "required": "Please fill in this field.",
+    "invalidEmail": "Please enter a valid email.",
+    "preview": "Preview mode: this form is not connected to email yet.",
+    "privacy": "We only use your details to respond to your enquiry."
+  },
+  "footer": {
+    "tagline": "Bridging borders. Connecting talent. Building futures.",
+    "quickLinks": "Quick links",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}

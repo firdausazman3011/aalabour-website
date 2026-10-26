@@ -1,26 +1,131 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@theme {
+  --color-navy-50: #eef3fa;
+  --color-navy-100: #d9e3f2;
+  --color-navy-200: #b4c6e3;
+  --color-navy-300: #8aa5cf;
+  --color-navy-500: #3d5f96;
+  --color-navy-700: #1b3866;
+  --color-navy-800: #132b52;
+  --color-navy-900: #0d1f3d;
+  --color-navy-950: #08142a;
+
+  --color-brand-50: #fef2f2;
+  --color-brand-100: #fee2e2;
+  --color-brand-500: #e5323b;
+  --color-brand-600: #d0202a;
+  --color-brand-700: #ae1820;
+
+  --color-sand-50: #fbfaf7;
+  --color-sand-100: #f5f2ec;
+  --color-sand-200: #ebe6dc;
+
+  --color-ink: #0f172a;
+  --color-muted: #556074;
+  --color-success: #15803d;
+
+  --font-sans: var(--font-jakarta), var(--font-khmer), var(--font-jp), var(--font-sc), ui-sans-serif, system-ui, sans-serif;
+
+  --shadow-soft: 0 1px 2px rgb(13 31 61 / 0.04), 0 8px 24px -8px rgb(13 31 61 / 0.12);
+  --shadow-lift: 0 2px 4px rgb(13 31 61 / 0.05), 0 24px 48px -16px rgb(13 31 61 / 0.22);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+  body {
+    @apply bg-sand-50 text-ink antialiased;
+    overflow-x: clip;
+    font-feature-settings: "ss01";
+  }
+  /* Khmer script needs extra line height for stacked vowels and subscripts. */
+  :lang(km) body {
+    line-height: 1.8;
+  }
+  :lang(km) h1,
+  :lang(km) h2,
+  :lang(km) h3 {
+    line-height: 1.5;
+  }
+  /* Break Japanese headings at natural phrase boundaries instead of mid-word. */
+  :lang(ja) :is(h1, h2, h3) {
+    word-break: auto-phrase;
+  }
+  ::selection {
+    @apply bg-brand-500 text-white;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-brand-500;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility container-x {
+  @apply mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+@utility eyebrow {
+  @apply inline-flex items-center gap-2 text-xs font-semibold tracking-[0.18em] text-brand-600 uppercase;
+}
+
+:lang(km) .eyebrow,
+:lang(ja) .eyebrow,
+:lang(zh) .eyebrow {
+  @apply tracking-normal text-sm;
+}
+
+@utility btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 text-sm font-semibold transition-all duration-200 active:scale-[0.98];
+}
+
+@utility btn-primary {
+  @apply btn bg-brand-600 text-white shadow-[0_8px_24px_-8px_rgb(208_32_42/0.6)] hover:bg-brand-700;
+}
+
+@utility btn-dark {
+  @apply btn bg-navy-900 text-white hover:bg-navy-800;
+}
+
+@utility btn-ghost {
+  @apply btn border border-navy-200 bg-white/70 text-navy-900 backdrop-blur hover:border-navy-300 hover:bg-white;
+}
+
+@utility btn-light {
+  @apply btn border border-white/25 bg-white/10 text-white backdrop-blur hover:bg-white/20;
+}
+
+@utility card {
+  @apply rounded-3xl border border-sand-200 bg-white shadow-soft;
+}
+
+@utility field {
+  @apply w-full rounded-xl border border-sand-200 bg-sand-50 px-4 py-3 text-sm text-ink placeholder:text-muted/60 transition focus:border-navy-500 focus:bg-white focus:outline-none focus:ring-4 focus:ring-navy-100;
+}
+
+@utility grid-bg {
+  background-image:
+  linear-gradient(to right, rgb(255 255 255 / 0.06) 1px, transparent 1px),
+  linear-gradient(to bottom, rgb(255 255 255 / 0.06) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* Above-the-fold entrance: pure CSS so hero copy is visible before JavaScript hydrates. */
+@keyframes fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@utility animate-fade-up {
+  animation: fade-up 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
 }

@@ -1,0 +1,482 @@
+{
+  "meta": {
+    "title": "AA Labour Cambodia Supply Co., Ltd. | Agensi Pengambilan Pekerja Luar Negara Berlesen",
+    "description": "Agensi pengambilan dan pembekalan tenaga kerja Kemboja yang berlesen (Lesen No. 121/19). Kami melatih dan menempatkan pekerja mahir, separuh mahir dan am dengan majikan yang dipercayai di Malaysia dan negara lain."
+  },
+  "nav": {
+    "home": "Utama",
+    "about": "Tentang Kami",
+    "workers": "Cari Kerja",
+    "employers": "Ambil Pekerja",
+    "destinations": "Destinasi",
+    "news": "Berita",
+    "gallery": "Galeri",
+    "certificates": "Lesen",
+    "contact": "Hubungi",
+    "applyNow": "Mohon sekarang",
+    "menu": "Menu",
+    "close": "Tutup",
+    "language": "Bahasa",
+    "more": "Lagi"
+  },
+  "common": {
+    "learnMore": "Ketahui lebih lanjut",
+    "readMore": "Baca lagi",
+    "viewAll": "Lihat semua",
+    "callUs": "Hubungi kami",
+    "chatTelegram": "Sembang di Telegram",
+    "chatLine": "Sembang di Line",
+    "emailUs": "E-mel kami",
+    "licensed": "Agensi berlesen · Lesen No. 121/19",
+    "openInMaps": "Buka di Google Maps",
+    "backToTop": "Kembali ke atas",
+    "contactQuick": "Bercakap dengan kami"
+  },
+  "status": {
+    "active": "Sedang mengambil pekerja",
+    "inactive": "Tidak aktif",
+    "suspended": "Pengambilan digantung",
+    "comingSoon": "Akan datang"
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Agensi pengambilan pekerja Kemboja berlesen",
+      "title": "Menghubungkan tenaga kerja Kemboja dengan majikan yang dipercayai di seluruh dunia",
+      "subtitle": "Pekerjaan luar negara yang selamat dan sah untuk pekerja Kemboja, serta pekerja yang boleh diharap dan terlatih untuk majikan antarabangsa. Kami uruskan setiap langkah: pengambilan, latihan, dokumen dan penempatan.",
+      "ctaWorker": "Saya mahu bekerja di luar negara",
+      "ctaEmployer": "Saya perlukan pekerja",
+      "badge": "Kini mengambil pekerja untuk Malaysia"
+    },
+    "stats": {
+      "license": "No. lesen kerajaan",
+      "salary": "Gaji pokok bulanan di Malaysia",
+      "loan": "Pinjaman untuk menampung semua kos dokumen",
+      "visitors": "Pengunjung laman web dan terus bertambah"
+    },
+    "paths": {
+      "title": "Bagaimana kami boleh membantu anda?",
+      "subtitle": "Pilih laluan anda dan kami akan membimbing anda dari perbualan pertama hingga hari pertama bekerja.",
+      "worker": {
+        "label": "Untuk pekerja",
+        "title": "Bekerja di luar negara dengan selamat dan sah",
+        "desc": "Dapatkan pekerjaan yang disahkan di Malaysia dengan sokongan penuh sebelum dan selepas berlepas.",
+        "points": [
+          "Gaji pokok RM 1,800 serta kerja lebih masa",
+          "Pinjaman 100% untuk dokumen melalui bank rakan kongsi kami",
+          "Latihan dan orientasi pra-pemberangkatan",
+          "Penginapan disediakan oleh majikan"
+        ],
+        "cta": "Terokai pekerjaan"
+      },
+      "employer": {
+        "label": "Untuk majikan",
+        "title": "Ambil pekerja yang berdisiplin dan sedia bekerja",
+        "desc": "Pekerja Kemboja yang telah disaring dan dilatih untuk sektor kilang, pembinaan, perladangan, hospitaliti dan banyak lagi.",
+        "points": [
+          "Pencarian calon, temu duga dan pemilihan",
+          "Latihan bahasa, keselamatan dan budaya",
+          "Urusan visa, permit kerja dan perjalanan",
+          "Sokongan berterusan selepas penempatan"
+        ],
+        "cta": "Mohon pekerja"
+      }
+    },
+    "jobs": {
+      "title": "Pekerjaan yang kami tawarkan",
+      "subtitle": "Jawatan peringkat permulaan dan mahir dengan majikan yang bereputasi.",
+      "items": {
+        "construction": { "name": "Pembinaan", "desc": "Pekerja am, pengimpal, pemasang besi, juruelektrik dan tukang kayu." },
+        "care": { "name": "Penjagaan Warga Emas", "desc": "Penjaga dan pembantu jururawat untuk masyarakat yang semakin menua." },
+        "agriculture": { "name": "Pertanian", "desc": "Kerja ladang, rumah hijau, penuaian dan perladangan." },
+        "factory": { "name": "Kilang", "desc": "Operator barisan pengeluaran, pembungkusan dan mesin." },
+        "housemaid": { "name": "Pembantu Rumah", "desc": "Pembantu rumah untuk keluarga (akan dibuka tidak lama lagi)." },
+        "cleaning": { "name": "Pembersihan", "desc": "Perkhidmatan pembersihan bangunan, restoran, hotel dan pengemasan." },
+        "rubber": { "name": "Menoreh Getah", "desc": "Penoreh getah di ladang getah Malaysia." },
+        "semiconductor": { "name": "Elektronik & Semikonduktor", "desc": "Pekerja kilang elektronik dan semikonduktor." }
+      }
+    },
+    "process": {
+      "title": "Perjalanan anda, langkah demi langkah",
+      "subtitle": "Proses yang jelas dan telus dengan pasukan kami di sisi anda pada setiap peringkat.",
+      "steps": [
+        { "title": "Daftar", "desc": "Hubungi kami dan daftar dengan dokumen asas anda. Tempoh menunggu biasanya 3 hingga 6 bulan." },
+        { "title": "Temu duga", "desc": "Bertemu majikan. Selepas lulus, pemberangkatan biasanya dalam tempoh 1 hingga 1.5 bulan." },
+        { "title": "Latihan & dokumen", "desc": "Latihan bahasa, keselamatan dan budaya sementara kami memproses pasport, pemeriksaan perubatan, visa dan permit kerja anda." },
+        { "title": "Berlepas & sokongan", "desc": "Kami aturkan penerbangan anda dan terus berhubung dengan anda serta majikan anda selepas anda tiba." }
+      ]
+    },
+    "destinations": {
+      "title": "Negara penempatan pekerja kami",
+      "subtitle": "Kini mengambil pekerja untuk Malaysia, dengan lebih banyak destinasi akan menyusul."
+    },
+    "ceo": {
+      "eyebrow": "Perutusan Ketua Pegawai Eksekutif",
+      "title": "Menghubungkan Insan dengan Peluang, Membina Masa Depan yang Berjaya",
+      "paragraphs": [
+        "Sebagai Ketua Pegawai Eksekutif dan Pengasas, saya berbangga memimpin syarikat yang mempunyai misi yang jelas: membantu pekerja Kemboja mendapat pekerjaan yang selamat, sah dan bermakna, serta mengembangkan kerjaya mereka dalam pasaran buruh antarabangsa.",
+        "Kami percaya pekerjaan bukan sekadar sumber pendapatan. Ia adalah peluang untuk perkembangan diri, kemahiran baharu dan masa depan yang lebih baik bagi keluarga dan masyarakat. Oleh itu, kami menyediakan setiap pekerja dengan latihan, bimbingan dan sokongan sebelum mereka berlepas.",
+        "Kepada majikan dan rakan kongsi kami: kami komited untuk membina kerjasama jangka panjang berasaskan pekerja Kemboja yang boleh diharap, berdisiplin dan bersedia sepenuhnya. Terima kasih atas kepercayaan dan sokongan berterusan anda."
+      ],
+      "name": "Encik Hang Sunly",
+      "role": "Ketua Pegawai Eksekutif & Pengasas, AA Labour Cambodia Supply Co., Ltd.",
+      "photoPending": "Potret akan datang"
+    },
+    "trust": {
+      "title": "Berlesen dan diiktiraf sepenuhnya",
+      "subtitle": "Berdaftar dengan Kementerian Perdagangan dan diiktiraf untuk penempatan pekerja ke luar negara.",
+      "cta": "Lihat lesen kami"
+    },
+    "gallery": {
+      "title": "Warga kami beraksi",
+      "subtitle": "Latihan, pemberangkatan dan kehidupan di tempat kerja.",
+      "cta": "Buka galeri"
+    },
+    "cta": {
+      "title": "Bersedia untuk langkah seterusnya?",
+      "subtitle": "Hantar mesej kepada kami di Telegram atau hubungi kami. Pasukan kami membalas dengan pantas, Isnin hingga Jumaat, 8:00 pagi hingga 8:00 malam."
+    }
+  },
+  "faq": {
+    "title": "Soalan lazim",
+    "subtitle": "Jawapan ringkas untuk pekerja yang merancang untuk ke Malaysia.",
+    "items": [
+      {
+        "q": "Apakah pekerjaan yang ditawarkan di Malaysia?",
+        "a": "Terdapat lima jenis pekerjaan: kerja kilang, pembinaan, pertanian ladang getah, perkhidmatan pembersihan berpasukan, dan pembantu rumah (belum dibuka secara rasmi, sila tunggu)."
+      },
+      {
+        "q": "Berapa lama selepas mendaftar sehingga saya boleh berlepas?",
+        "a": "Terdapat dua peringkat. Selepas pendaftaran, tempoh menunggu biasanya 3 hingga 6 bulan. Selepas anda lulus temu duga, pemberangkatan biasanya dalam tempoh 1 hingga 1.5 bulan."
+      },
+      {
+        "q": "Apakah dokumen yang diperlukan untuk mendaftar?",
+        "a": "Lima dokumen: salinan sijil kelahiran, buku keluarga atau buku pemastautin, kad pengenalan, sijil kesihatan dan pasport."
+      },
+      {
+        "q": "Bolehkah saya mendaftar jika tidak mempunyai wang?",
+        "a": "Boleh. Syarikat menyediakan pinjaman 100% melalui bank rakan kongsi kami untuk menampung semua kos dokumen."
+      },
+      {
+        "q": "Berapakah gaji yang akan saya peroleh di Malaysia?",
+        "a": "Gaji pokok ialah RM 1,800 (Ringgit Malaysia) sebulan, serta kerja lebih masa jika ada."
+      },
+      {
+        "q": "Apakah syarat umur?",
+        "a": "Pemohon berumur 18 hingga 45 tahun diterima."
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "Tentang kami",
+      "title": "Merentas Sempadan, Merealisasikan Impian",
+      "subtitle": "AA Labour Cambodia Supply Co., Ltd. ialah syarikat pengambilan dan pembekalan tenaga kerja yang berlesen sah di Kerajaan Kemboja (Lesen No. 121/19)."
+    },
+    "intro": [
+      "Kami pakar dalam pengambilan, latihan dan penempatan pekerja mahir, separuh mahir dan am ke luar negara, serta menjadi jambatan yang dipercayai antara pekerja Kemboja yang berkelayakan, majikan yang bereputasi dan rakan niaga antarabangsa.",
+      "Dengan komitmen yang kukuh terhadap profesionalisme, integriti, ketelusan dan pematuhan piawaian buruh, kami menyediakan penyelesaian tenaga kerja yang boleh diharap sambil mewujudkan peluang yang lebih baik bagi pekerja Kemboja untuk meningkatkan pendapatan, membangunkan kemahiran dan memperbaiki kualiti hidup mereka."
+    ],
+    "vision": {
+      "title": "Visi kami",
+      "text": "Menjadi antara syarikat pengambilan pekerja terkemuka dan paling dipercayai di Kemboja, diiktiraf di peringkat antarabangsa kerana penyelesaian tenaga kerja berkualiti tinggi serta pengambilan pekerja luar negara yang beretika, profesional dan bertanggungjawab."
+    },
+    "purpose": {
+      "title": "Matlamat kami",
+      "text": "Mewujudkan peluang pekerjaan yang sah untuk pekerja Kemboja sambil menyediakan penyelesaian tenaga kerja berkualiti tinggi kepada majikan di seluruh dunia."
+    },
+    "mission": {
+      "title": "Misi kami",
+      "items": [
+        "Membekalkan majikan antarabangsa dengan pekerja Kemboja yang mahir, berdisiplin dan bersedia sepenuhnya.",
+        "Membantu pekerja Kemboja mendapat pekerjaan luar negara yang sah, selamat dan menguntungkan bagi meningkatkan pendapatan dan kualiti hidup mereka.",
+        "Mengekalkan piawaian profesional yang tinggi berasaskan ketelusan, akauntabiliti, integriti dan tingkah laku beretika.",
+        "Membina kerjasama jangka panjang dengan majikan dan agensi di seluruh dunia, berteraskan kepercayaan dan kejayaan bersama.",
+        "Menyumbang kepada pembangunan ekonomi dan sosial Kemboja dengan menghubungkan pekerja dengan pasaran buruh antarabangsa."
+      ]
+    },
+    "values": {
+      "title": "Prinsip teras kami",
+      "items": [
+        { "title": "Kepercayaan", "desc": "Hubungan jangka panjang dengan pekerja dan majikan." },
+        { "title": "Ketelusan", "desc": "Kos, kontrak dan syarat yang jelas pada setiap langkah." },
+        { "title": "Kecemerlangan perkhidmatan", "desc": "Sokongan yang responsif dan profesional sebelum dan selepas berlepas." },
+        { "title": "Akauntabiliti & integriti", "desc": "Pengambilan pekerja beretika yang melindungi hak dan kebajikan pekerja." }
+      ]
+    },
+    "services": {
+      "title": "Perkhidmatan kami",
+      "items": [
+        { "title": "Pengambilan & penempatan ke luar negara", "desc": "Kami mengambil, melatih dan menempatkan pekerja mahir, separuh mahir dan am dengan majikan bereputasi di luar negara." },
+        { "title": "Latihan pra-pemberangkatan", "desc": "Bahasa asas, budaya tempat kerja, keselamatan pekerjaan dan persediaan hidup di luar negara." },
+        { "title": "Dokumentasi & pemprosesan", "desc": "Pasport, pemeriksaan perubatan, visa, permit kerja, pengesahan dokumen, perjalanan dan tiket penerbangan." },
+        { "title": "Penyelesaian tenaga kerja untuk majikan", "desc": "Pencarian calon, temu duga, pemilihan, penempatan dan komunikasi berterusan dengan majikan." }
+      ]
+    },
+    "team": {
+      "title": "Pasukan kami di Phnom Penh",
+      "caption": "Pasukan AA Labour di ibu pejabat kami di Dangkao, Phnom Penh."
+    }
+  },
+  "workers": {
+    "hero": {
+      "eyebrow": "Untuk pencari kerja",
+      "title": "Laluan selamat anda ke pekerjaan yang baik di luar negara",
+      "subtitle": "Pekerjaan sah di Malaysia dengan gaji pokok RM 1,800, penginapan dan sokongan penuh. Tiada wang? Kami tawarkan pinjaman 100% untuk dokumen anda."
+    },
+    "benefits": {
+      "title": "Apa yang anda peroleh",
+      "items": [
+        { "title": "Gaji pokok RM 1,800", "desc": "Serta kerja lebih masa, kira-kira RM 13 sejam bagi jawatan semasa." },
+        { "title": "Pinjaman 100%", "desc": "Semua kos dokumen ditanggung melalui bank rakan kongsi kami." },
+        { "title": "Penginapan", "desc": "Asrama berkumpulan yang sesuai disediakan oleh majikan." },
+        { "title": "Dokumen 100% sah", "desc": "Visa dan permit kerja yang sah, diuruskan oleh agensi berlesen." },
+        { "title": "Sokongan penuh", "desc": "Bantuan sebelum berlepas dan selepas anda tiba." },
+        { "title": "Tempat kerja yang selamat", "desc": "Persekitaran kerja yang baik dengan majikan yang disahkan." }
+      ]
+    },
+    "requirements": {
+      "title": "Siapa yang boleh memohon",
+      "items": [
+        "Lelaki dan wanita berumur 18 hingga 45 tahun",
+        "Sihat tubuh badan",
+        "Rajin, berdisiplin dan bertanggungjawab"
+      ]
+    },
+    "documents": {
+      "title": "Dokumen yang diperlukan",
+      "items": [
+        "Salinan sijil kelahiran",
+        "Buku keluarga atau buku pemastautin",
+        "Kad pengenalan",
+        "Sijil kesihatan",
+        "Pasport"
+      ]
+    },
+    "training": {
+      "title": "Latihan pra-pemberangkatan percuma",
+      "items": [
+        { "title": "Bahasa asas", "desc": "Frasa penting untuk kerja dan kehidupan harian." },
+        { "title": "Tempat kerja & budaya", "desc": "Jangkaan, tatakelakuan dan adat resam negara destinasi anda." },
+        { "title": "Keselamatan & undang-undang", "desc": "Keselamatan pekerjaan dan undang-undang tempatan yang perlu anda ketahui." },
+        { "title": "Hidup di luar negara", "desc": "Persediaan praktikal untuk kehidupan harian di negara baharu." }
+      ]
+    },
+    "form": {
+      "title": "Mohon dalam 1 minit",
+      "subtitle": "Tinggalkan butiran anda dan pasukan kami akan menghubungi anda semula. Lebih suka bersembang? Hantar mesej kepada kami di Telegram."
+    }
+  },
+  "employers": {
+    "hero": {
+      "eyebrow": "Untuk majikan & agensi",
+      "title": "Pekerja Kemboja yang boleh diharap, sedia bekerja",
+      "subtitle": "Kami mencari, menyaring, melatih dan menempatkan pekerja mahir, separuh mahir dan am yang menepati keperluan tepat anda, secara sah dan mengikut jadual."
+    },
+    "services": {
+      "title": "Perkhidmatan pengambilan pekerja menyeluruh",
+      "items": [
+        { "title": "Pencarian & pembekalan", "desc": "Calon yang berkelayakan dan boleh diharap, dipadankan dengan spesifikasi anda." },
+        { "title": "Temu duga & pemilihan", "desc": "Kami menilai kemahiran dan kesesuaian, serta mengatur temu duga bersama anda." },
+        { "title": "Pengurusan proses", "desc": "Daripada pencarian calon hingga dokumentasi dan penempatan." },
+        { "title": "Penempatan & mobilisasi", "desc": "Visa, permit kerja, pengesahan dokumen, penerbangan dan penyelarasan ketibaan." },
+        { "title": "Sokongan berterusan", "desc": "Komunikasi berterusan dengan majikan dan pekerja selepas ketibaan." },
+        { "title": "Latihan pra-pemberangkatan", "desc": "Kesediaan bahasa, keselamatan, budaya dan tempat kerja." }
+      ]
+    },
+    "industries": {
+      "title": "Industri yang kami bekalkan",
+      "subtitle": "Tenaga kerja mahir, separuh mahir dan am merentas sektor berikut:",
+      "items": [
+        { "name": "Pembuatan & kilang", "roles": "Elektronik, barisan pengeluaran, operator mesin, pembungkusan" },
+        { "name": "Pembinaan", "roles": "Pekerja am, pengimpal, juruelektrik, tukang paip, tukang kayu" },
+        { "name": "Pertanian & perladangan", "roles": "Pekerja ladang getah, ladang, penuaian, rumah hijau" },
+        { "name": "Hotel & hospitaliti", "roles": "Kakitangan hotel, restoran dan dapur" },
+        { "name": "Pembersihan & penyelenggaraan", "roles": "Pembersih bangunan, pengemasan, dobi" },
+        { "name": "Pengangkutan & pergudangan", "roles": "Gudang, pembungkusan, pemunggahan, operator forklift" },
+        { "name": "Pemprosesan makanan", "roles": "Pekerja kilang makanan, makanan laut dan pembungkusan" },
+        { "name": "Perkhidmatan am", "roles": "Pembantu am dan sokongan operasi" }
+      ]
+    },
+    "process": {
+      "title": "Cara kerjasama berjalan",
+      "steps": [
+        { "title": "Kongsi keperluan anda", "desc": "Jawatan, bilangan, kemahiran, gaji dan garis masa." },
+        { "title": "Kami senarai pendek calon", "desc": "Saringan dan penilaian berdasarkan kriteria anda." },
+        { "title": "Anda temu duga & pilih", "desc": "Secara bersemuka atau dalam talian, mengikut kelapangan anda." },
+        { "title": "Kami latih, proses & tempatkan", "desc": "Latihan, dokumen dan perjalanan diuruskan sepenuhnya." }
+      ]
+    },
+    "welcome": {
+      "title": "Selamat datang, rakan niaga",
+      "text": "Kami mengalu-alukan syarikat, institusi, majikan dan agensi pengambilan pekerja yang mencari penyelesaian tenaga kerja yang boleh diharap dari Kemboja, dan menantikan peluang untuk membina kerjasama jangka panjang yang dipercayai."
+    },
+    "form": {
+      "title": "Mohon pekerja",
+      "subtitle": "Beritahu kami keperluan anda dan kami akan membalas dengan cadangan dalam tempoh satu hari bekerja."
+    }
+  },
+  "destinations": {
+    "hero": {
+      "eyebrow": "Destinasi",
+      "title": "Peluang di seluruh Asia",
+      "subtitle": "Panduan negara untuk pekerja dan majikan, dengan status pengambilan semasa."
+    },
+    "labels": {
+      "capital": "Ibu negara",
+      "population": "Penduduk",
+      "language": "Bahasa",
+      "currency": "Mata wang",
+      "timezone": "Zon waktu",
+      "salary": "Gaji biasa",
+      "sectors": "Sektor permintaan tinggi",
+      "why": "Mengapa bekerja di sini"
+    },
+    "malaysia": {
+      "name": "Malaysia",
+      "summary": "Destinasi utama kami. Permintaan yang tinggi dan berterusan terhadap pekerja asing dalam sektor pembuatan, pembinaan, perladangan dan perkhidmatan.",
+      "capital": "Kuala Lumpur",
+      "population": "Kira-kira 34 juta",
+      "language": "Bahasa Melayu; Bahasa Inggeris, Cina dan Tamil digunakan secara meluas",
+      "currency": "Ringgit Malaysia (MYR)",
+      "timezone": "GMT+8",
+      "salary": "Gaji pokok RM 1,800 sebulan, serta kerja lebih masa",
+      "sectors": ["Kilang dan elektronik", "Pembinaan", "Ladang kelapa sawit dan getah", "Pembersihan dan penyelenggaraan", "Hotel dan restoran", "Pengangkutan dan pergudangan"],
+      "why": ["Permintaan pekerja yang tinggi", "Gaji dan kerja lebih masa yang kompetitif", "Berdekatan dengan Kemboja", "Kos sara hidup yang berpatutan", "Ramai majikan menyediakan penginapan"]
+    },
+    "japan": {
+      "name": "Jepun",
+      "summary": "Ekonomi besar dengan populasi yang semakin menua, mengambil pekerja asing melalui program SSW dan TITP. Kami belum mempunyai majikan aktif di Jepun buat masa ini.",
+      "capital": "Tokyo",
+      "population": "Kira-kira 124 juta",
+      "language": "Bahasa Jepun",
+      "currency": "Yen Jepun (JPY)",
+      "timezone": "GMT+9",
+      "salary": "Kira-kira JPY 160,000 hingga 300,000+ sebulan",
+      "sectors": ["Pembuatan", "Pembinaan", "Pertanian", "Pemprosesan makanan", "Hotel dan pelancongan", "Penjagaan warga emas"],
+      "why": ["Tempat kerja yang selamat dan bersih", "Peluang kerja lebih masa", "Teknologi dan kemahiran termaju", "Pengalaman kerja antarabangsa"]
+    },
+    "thailand": {
+      "name": "Thailand",
+      "summary": "Berdekatan dengan Kemboja dengan permintaan tinggi dalam sektor pembinaan, kilang dan pertanian. Pengambilan digantung sehingga diberitahu kelak.",
+      "capital": "Bangkok",
+      "population": "Kira-kira 70 juta",
+      "language": "Bahasa Thai",
+      "currency": "Baht Thai (THB)",
+      "timezone": "GMT+7",
+      "salary": "Kira-kira THB 12,000 hingga 30,000+ sebulan",
+      "sectors": ["Pembinaan", "Kilang dan pembuatan", "Pertanian", "Pembersihan", "Hospitaliti", "Pemprosesan makanan laut"],
+      "why": ["Berdekatan dengan Kemboja", "Kos perjalanan yang rendah", "Iklim dan budaya yang serupa", "Peluang kerja lebih masa"]
+    },
+    "singapore": {
+      "name": "Singapura",
+      "summary": "Destinasi seterusnya dalam perancangan kami. Daftarkan minat anda dan kami akan menghubungi anda apabila pengambilan dibuka."
+    }
+  },
+  "news": {
+    "hero": {
+      "eyebrow": "Berita & jawatan kosong",
+      "title": "Peluang terkini",
+      "subtitle": "Pengumuman jawatan kosong semasa. Tempat adalah terhad: siapa cepat, dia dapat."
+    },
+    "items": [
+      {
+        "title": "Pekerjaan perkhidmatan pembersihan & ladang getah di Malaysia",
+        "summary": "Mengambil ramai pekerja untuk perkhidmatan pembersihan dan menoreh getah.",
+        "points": ["Gaji RM 1,800 serta kerja lebih masa RM 13 sejam", "Asrama berkumpulan disediakan", "Dokumen 100% sah", "Sokongan penuh sebelum dan selepas berlepas", "Lelaki dan wanita berumur 21 hingga 45 tahun, sihat tubuh badan"],
+        "note": "Hanya 170 tempat untuk tahun 2026."
+      },
+      {
+        "title": "Peluang istimewa: pekerjaan kilang elektronik di Malaysia",
+        "summary": "Jawatan kilang elektronik kini dibuka.",
+        "points": ["Tempat terhad, siapa cepat dia dapat", "Pinjaman 100% untuk kos permohonan"],
+        "note": "Hanya 170 tempat untuk tahun 2026."
+      },
+      {
+        "title": "150 pekerjaan pembersihan restoran di Malaysia",
+        "summary": "Mengambil 150 pekerja untuk perkhidmatan pembersihan restoran.",
+        "points": ["Gaji RM 1,700 serta kerja lebih masa RM 13 sejam", "Penginapan dan makanan disediakan", "Dokumen 100% sah", "Sokongan penuh sebelum dan selepas berlepas", "Lelaki dan wanita berumur 18 hingga 44 tahun, sihat tubuh badan"],
+        "note": "Pinjaman 100% tersedia untuk perkhidmatan permohonan ke luar negara."
+      }
+    ],
+    "apply": "Mohon jawatan ini"
+  },
+  "gallery": {
+    "hero": {
+      "eyebrow": "Galeri",
+      "title": "Detik-detik bermakna",
+      "subtitle": "Pekerja kami, sesi latihan, pemberangkatan dan aktiviti pengurusan."
+    },
+    "categories": {
+      "all": "Semua",
+      "cleaning": "Pembersihan & kilang",
+      "management": "Aktiviti pengurusan",
+      "memories": "Pekerja di Malaysia & Thailand",
+      "rubber": "Penoreh getah"
+    }
+  },
+  "certificates": {
+    "hero": {
+      "eyebrow": "Lesen & akreditasi",
+      "title": "Berlesen, berdaftar, diiktiraf",
+      "subtitle": "Dokumen rasmi yang membuktikan kami beroperasi secara sah dan bertanggungjawab."
+    },
+    "items": {
+      "moc": "Sijil Pemerbadanan (Kementerian Perdagangan)",
+      "tax": "Cukai Paten 2026 (Jabatan Am Percukaian)",
+      "malaysia": "Sijil Akreditasi: Malaysia",
+      "japan": "Sijil Akreditasi: Jepun",
+      "thailand": "Sijil Akreditasi: Thailand"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Hubungi",
+      "title": "Kami ingin mendengar daripada anda",
+      "subtitle": "Kunjungi pejabat kami, hubungi kami atau hantar mesej. Pasukan kami akan membalas secepat mungkin."
+    },
+    "hours": "Waktu pejabat",
+    "hoursValue": "Isnin hingga Jumaat, 8:00 pagi hingga 8:00 malam",
+    "phone": "Telefon & Telegram",
+    "office": "Talian pejabat",
+    "email": "E-mel",
+    "address": "Alamat pejabat",
+    "addressValue": "#6-8, Street 33, Borey Phiphub Thmey 1, Sangkat Dangkao, Khan Dangkao, Phnom Penh 120501, Cambodia",
+    "map": "Cari pejabat kami",
+    "social": "Ikuti kami"
+  },
+  "form": {
+    "name": "Nama penuh",
+    "email": "E-mel",
+    "phone": "No. telefon / Telegram",
+    "age": "Umur",
+    "gender": "Jantina",
+    "genderMale": "Lelaki",
+    "genderFemale": "Perempuan",
+    "job": "Pekerjaan yang anda minati",
+    "destination": "Negara pilihan",
+    "company": "Nama syarikat",
+    "country": "Negara",
+    "industry": "Industri",
+    "quantity": "Bilangan pekerja diperlukan",
+    "subject": "Subjek",
+    "message": "Mesej",
+    "optional": "pilihan",
+    "select": "Sila pilih",
+    "submit": "Hantar",
+    "submitWorker": "Hantar permohonan saya",
+    "submitEmployer": "Hantar permintaan",
+    "sending": "Menghantar...",
+    "success": "Terima kasih! Kami telah menerima mesej anda dan akan menghubungi anda tidak lama lagi.",
+    "error": "Maaf, berlaku ralat. Sila hubungi kami atau hantar mesej di Telegram.",
+    "required": "Sila isi ruangan ini.",
+    "invalidEmail": "Sila masukkan e-mel yang sah.",
+    "preview": "Mod pratonton: borang ini belum disambungkan ke e-mel.",
+    "privacy": "Kami hanya menggunakan butiran anda untuk menjawab pertanyaan anda."
+  },
+  "footer": {
+    "tagline": "Merentas sempadan. Menghubungkan bakat. Membina masa depan.",
+    "quickLinks": "Pautan pantas",
+    "contact": "Hubungi",
+    "rights": "Hak cipta terpelihara."
+  }
+}
