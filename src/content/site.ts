@@ -63,11 +63,12 @@ export const certificates = [
   { key: "thailand", image: "/images/certificates/thailand.jpg" },
 ] as const;
 
-// Original job posters, shown uncropped so every detail stays readable.
+// Original job posters, shown uncropped so every detail stays readable. `country` is the
+// destination the poster names; the restaurant poster names none, so it gets no badge.
 export const newsImages = [
-  { src: "/images/news/news-1.jpg", width: 1054, height: 1492 },
-  { src: "/images/news/news-2.jpg", width: 1024, height: 1536 },
-  { src: "/images/news/news-3.png", width: 1144, height: 2048 },
+  { src: "/images/news/news-1.jpg", width: 1054, height: 1492, country: "malaysia" },
+  { src: "/images/news/news-2.jpg", width: 1024, height: 1536, country: "malaysia" },
+  { src: "/images/news/news-3.png", width: 1144, height: 2048, country: null },
 ] as const;
 
 export const galleryCategories = ["cleaning", "memories", "management", "rubber"] as const;

@@ -42,7 +42,9 @@ export default async function NewsPage({ params }: PageProps) {
               <div className="p-7 sm:p-10">
                 <div className="flex flex-wrap items-center gap-3">
                   <span className="grid size-10 place-items-center rounded-xl bg-brand-50 text-brand-600"><Megaphone className="size-5" /></span>
-                  <span className="rounded-full bg-sand-100 px-3 py-1 text-xs font-semibold text-navy-900">🇲🇾 {t("destinations.malaysia.name")}</span>
+                  {newsImages[i].country === "malaysia" && (
+                    <span className="rounded-full bg-sand-100 px-3 py-1 text-xs font-semibold text-navy-900">🇲🇾 {t("destinations.malaysia.name")}</span>
+                  )}
                 </div>
                 <h2 className="mt-5 text-2xl font-extrabold tracking-tight text-navy-950">{n.title}</h2>
                 <p className="mt-2 text-muted">{n.summary}</p>
