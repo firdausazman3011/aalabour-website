@@ -72,7 +72,8 @@ export async function POST(request: Request) {
     host: SMTP_HOST || "smtp.gmail.com",
     port,
     secure: port === 465,
-    auth: { user: SMTP_USER, pass: SMTP_PASS },
+    // Google displays App Passwords in groups of four; the spaces are not part of the password.
+    auth: { user: SMTP_USER, pass: SMTP_PASS.replace(/\s+/g, "") },
   });
 
   try {
